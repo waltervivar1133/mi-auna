@@ -1,0 +1,16 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "namespace": "PORTAL-AFILIADO",
+        "displayName": false,
+        "preprocess": false,
+        "fileName": false,
+        "pure": true
+      }
+    ]
+  ]
+}
